@@ -26,6 +26,12 @@ jobs:
         with:
           node-version: "16.x"
           cache: yarn
+      - name: Install yj
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          echo "$HOME/.local/bin" >> $GITHUB_PATH
+          curl -sSL https://github.com/sclevine/yj/releases/download/v5.0.0/yj-linux -o "$HOME/.local/bin/yj"
+          chmod +x "$HOME/.local/bin/yj"
       - name: Install dependencies 📦
         run: yarn install --frozen-lockfile
       - name: Build
