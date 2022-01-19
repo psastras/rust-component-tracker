@@ -15,8 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Cache data
+        uses: actions/cache@v2
         with:
-          submodules: recursive
+          path: |
+            data
+          key: data
       - name: Set up Node.js ⚙️
         uses: actions/setup-node@v2
         with:
