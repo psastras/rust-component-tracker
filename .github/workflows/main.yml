@@ -1,0 +1,35 @@
+on:
+  push:
+    tags-ignore:
+      - "**"
+    branches:
+      - main
+  pull_request:
+
+# ignore gh-pages
+name: main
+
+jobs:
+  docs:
+    name: Docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Set up Node.js ⚙️
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.x"
+          cache: yarn
+      - name: Install dependencies 📦
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: out
+          force_orphan: true
