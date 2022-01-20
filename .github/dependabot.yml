@@ -6,7 +6,7 @@ updates:
       interval: "daily"
     commit-message:
       prefix: ci
-  - package-ecosystem: "cargo"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"

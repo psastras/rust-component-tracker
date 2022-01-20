@@ -34,6 +34,10 @@ jobs:
           chmod +x "$HOME/.local/bin/yj"
       - name: Install dependencies 📦
         run: yarn install --frozen-lockfile
+      - name: Setup build env
+        if: ${{ github.ref == 'refs/heads/main' }}
+        run: |
+          echo "DAYS=30" >> $GITHUB_ENV
       - name: Build
         run: yarn build
       - name: Deploy
