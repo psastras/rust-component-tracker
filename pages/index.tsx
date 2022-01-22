@@ -7,6 +7,8 @@ import {
   getTheme,
   IColumn,
   SelectionMode,
+  Separator,
+  Text,
 } from "@fluentui/react";
 import { execSync } from "child_process";
 import {
@@ -21,6 +23,9 @@ import { useRouter } from "next/router";
 
 const theme = getTheme();
 import React from "react";
+import Head from "next/head";
+import Script from "next/script";
+import Link from "next/link";
 
 // Optional styling to make the example look nicer
 const comboBoxStyles: Partial<IComboBoxStyles> = { root: { minWidth: 400 } };
@@ -303,47 +308,79 @@ const Manifest: NextPage = ({ manifests, targets, components }: any) => {
   ];
 
   return (
-    <Stack verticalFill>
-      <Stack tokens={{ childrenGap: 15 }} horizontal>
-        <ComboBox
-          label="Targets"
-          allowFreeform={true}
-          autoComplete="on"
-          multiSelect
-          options={targetOptions}
-          selectedKey={targetSelectedKeys}
-          // eslint-disable-next-line react/jsx-no-bind
-          onChange={targetOnChange}
-          styles={comboBoxStyles}
-        />
-        <ComboBox
-          label="Components"
-          multiSelect
-          options={componentOptions}
-          selectedKey={componentSelectedKeys}
-          // eslint-disable-next-line react/jsx-no-bind
-          onChange={componentOnChange}
-          styles={comboBoxStyles}
-        />
-      </Stack>
-      <DetailsList
-        items={items}
-        groups={groups}
-        columns={columns}
-        onRenderItemColumn={_renderItemColumn as any}
-        onRenderRow={(props) => _renderRow(props, componentSelectedKeys)}
-        ariaLabelForSelectionColumn="Toggle selection"
-        checkButtonAriaLabel="select row"
-        checkButtonGroupAriaLabel="select section"
-        selectionMode={SelectionMode.none}
-        // onRenderDetailsHeader={this._onRenderDetailsHeader}
-        groupProps={{
-          showEmptyGroups: true,
-        }}
-        // onRenderItemColumn={this._onRenderColumn}
-        compact={true}
+    <div>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="Description" content="Rust nightly component history" />
+      </Head>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-F505PVHML4"
+        strategy="afterInteractive"
       />
-    </Stack>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-F505PVHML4');
+        `}
+      </Script>
+      <Head>
+        <title>Rust Nightly Component History</title>
+      </Head>
+      <Stack verticalFill>
+        <Stack tokens={{ childrenGap: 15 }} horizontal>
+          <ComboBox
+            label="Targets"
+            allowFreeform={true}
+            autoComplete="on"
+            multiSelect
+            options={targetOptions}
+            selectedKey={targetSelectedKeys}
+            // eslint-disable-next-line react/jsx-no-bind
+            onChange={targetOnChange}
+            styles={comboBoxStyles}
+          />
+          <ComboBox
+            label="Components"
+            multiSelect
+            options={componentOptions}
+            selectedKey={componentSelectedKeys}
+            // eslint-disable-next-line react/jsx-no-bind
+            onChange={componentOnChange}
+            styles={comboBoxStyles}
+          />
+        </Stack>
+        <DetailsList
+          items={items}
+          groups={groups}
+          columns={columns}
+          onRenderItemColumn={_renderItemColumn as any}
+          onRenderRow={(props) => _renderRow(props, componentSelectedKeys)}
+          ariaLabelForSelectionColumn="Toggle selection"
+          checkButtonAriaLabel="select row"
+          checkButtonGroupAriaLabel="select section"
+          selectionMode={SelectionMode.none}
+          // onRenderDetailsHeader={this._onRenderDetailsHeader}
+          groupProps={{
+            showEmptyGroups: true,
+          }}
+          // onRenderItemColumn={this._onRenderColumn}
+          compact={true}
+        />
+        <Separator />
+        <Stack>
+          <Stack.Item align="center">
+            <Text variant="tiny">
+              <Link href="https://github.com/psastras/rust-component-tracker">
+                Source on Github
+              </Link>
+            </Text>
+          </Stack.Item>
+        </Stack>
+      </Stack>
+    </div>
   );
 };
 
