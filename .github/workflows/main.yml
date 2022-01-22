@@ -6,8 +6,7 @@ on:
       - main
   pull_request:
   schedule:
-    - cron: |
-      '0 1 * * *'
+    - cron: "0 1 * * *"
 
 # ignore gh-pages
 name: main
