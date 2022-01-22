@@ -1,6 +1,6 @@
 # Rust Component Tracker
 
-[https://github.com/rust-lang/rustup-components-history]
+[https://psastras.github.io/rust-component-tracker/](https://psastras.github.io/rust-component-tracker/)
 
 A webpage used to track Rust nightly component availability (heavily inspired by [https://github.com/rust-lang/rustup-components-history](https://github.com/rust-lang/rustup-components-history)).
 
