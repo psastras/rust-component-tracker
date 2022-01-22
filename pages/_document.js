@@ -25,12 +25,6 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
-          <meta charset="utf-8" />
-          <meta name="Description" CONTENT="Rust nightly component history" />
           <style
             type="text/css"
             dangerouslySetInnerHTML={{ __html: this.props.styleTags }}

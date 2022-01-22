@@ -7,6 +7,8 @@ import {
   getTheme,
   IColumn,
   SelectionMode,
+  Separator,
+  Text,
 } from "@fluentui/react";
 import { execSync } from "child_process";
 import {
@@ -23,6 +25,7 @@ const theme = getTheme();
 import React from "react";
 import Head from "next/head";
 import Script from "next/script";
+import Link from "next/link";
 
 // Optional styling to make the example look nicer
 const comboBoxStyles: Partial<IComboBoxStyles> = { root: { minWidth: 400 } };
@@ -306,6 +309,10 @@ const Manifest: NextPage = ({ manifests, targets, components }: any) => {
 
   return (
     <div>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="Description" content="Rust nightly component history" />
+      </Head>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-F505PVHML4"
         strategy="afterInteractive"
@@ -362,6 +369,16 @@ const Manifest: NextPage = ({ manifests, targets, components }: any) => {
           // onRenderItemColumn={this._onRenderColumn}
           compact={true}
         />
+        <Separator />
+        <Stack>
+          <Stack.Item align="center">
+            <Text variant="tiny">
+              <Link href="https://github.com/psastras/rust-component-tracker">
+                Source on Github
+              </Link>
+            </Text>
+          </Stack.Item>
+        </Stack>
       </Stack>
     </div>
   );
