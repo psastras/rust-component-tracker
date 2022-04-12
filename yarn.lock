@@ -48,13 +48,14 @@
     "@fluentui/set-version" "^8.2.0"
     tslib "^2.1.0"
 
-"@fluentui/font-icons-mdl2@^8.2.5":
-  version "8.2.5"
-  resolved "https://registry.yarnpkg.com/@fluentui/font-icons-mdl2/-/font-icons-mdl2-8.2.5.tgz#fbdd576795338742b5add28c071e348607d9f34f"
-  integrity sha512-IgzcoOm+hZMlYJBR1RFb3fner1IxdSLCsnsjkVUtfnwuvGq/zjqEpNgsk5eUG4dHlu3E9dDY86nLqfGJe8R6yw==
+"@fluentui/font-icons-mdl2@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/font-icons-mdl2/-/font-icons-mdl2-8.3.0.tgz#939bca3d9914ea061c0e04395dbffd841b4f51e7"
+  integrity sha512-o67iMsFFqBCSL/l9D+wAguHCPOFd9xde9SztL7zwlf/c3o3+7oPRfzI/Zs1BqMxwd3WDsoKidhS2X6U8sZAuyg==
   dependencies:
     "@fluentui/set-version" "^8.2.0"
     "@fluentui/style-utilities" "^8.6.5"
+    "@fluentui/utilities" "^8.8.1"
     tslib "^2.1.0"
 
 "@fluentui/foundation-legacy@^8.2.5":
@@ -113,13 +114,13 @@
     "@fluentui/set-version" "^8.2.0"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.64.1":
-  version "8.64.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.64.1.tgz#6ffbf64b33055553793254b03b5f858f232dc07c"
-  integrity sha512-2xk+LqUwn7Xp3eDIgeLInX4f6hgdie6RGcZo7D1nGSIB0p5EOR8IcwhataYs3HMte3WFWBRJhYbEXYZVfCfvfA==
+"@fluentui/react@^8.64.3":
+  version "8.64.3"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.64.3.tgz#d7094cc1e195a54d8cc5de900bc9ffdfdb0c315d"
+  integrity sha512-zFZIydeLY5rovBXxVNvaRuDM1+TkBJ1h7s7bCGgZHuWbya0vmiWUJOEKsGL2hNJw9nppCrgau7EZU2b5d4xePQ==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.0"
-    "@fluentui/font-icons-mdl2" "^8.2.5"
+    "@fluentui/font-icons-mdl2" "^8.3.0"
     "@fluentui/foundation-legacy" "^8.2.5"
     "@fluentui/merge-styles" "^8.5.0"
     "@fluentui/react-focus" "^8.5.6"
