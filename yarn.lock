@@ -114,10 +114,10 @@
     "@fluentui/set-version" "^8.2.0"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.67.0":
-  version "8.67.0"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.67.0.tgz#fa9f7687157f535376b002e508b77af5f0796609"
-  integrity sha512-vcTuFKmc0ZxVA18H6HDMO5omXPAQqkFon389tM8bACKXFvPueKZQVTvZvDYgLX3g+xqY0pKF5yp5s649TbbbeQ==
+"@fluentui/react@^8.67.1":
+  version "8.67.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.67.1.tgz#0107639a7cb2801db66dbeb4b1a62bf59ca055d9"
+  integrity sha512-JdxJ/afOQRMynk7sLPJ2ulJYFCPC/ovit1MwMdpFXEADgj1bpJ9ioA23CUfSP1Mjm5zQJBW80LjVIF44zNm+4Q==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.0"
     "@fluentui/font-icons-mdl2" "^8.3.2"
