@@ -106,10 +106,10 @@
     "@fluentui/utilities" "^8.8.3"
     tslib "^2.1.0"
 
-"@fluentui/react-portal-compat-context@^9.0.0-rc.2":
-  version "9.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.0-rc.2.tgz#5b49cfec1b5fdb5671490f8fe8f991f6b2445f42"
-  integrity sha512-AAWLmggcbPIfldF3ZeSHpA9J2Z9C0Eano+8hCgKrKJ1b2uGZUzFMqOOgRAKrNwR8Ke4DXXIBlpy/6xbH1OkF8w==
+"@fluentui/react-portal-compat-context@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.0.tgz#5a4bc780e28ff88ff0dd5e6a67041102b2113555"
+  integrity sha512-EEDKfiJNKWwAKGNHHFq7cUgyYWkzCMGETE4t06aQG6cjDEnBb4fxiApOyb3Gtg/2lmUZt8GA4PXx1yc3qVewfg==
   dependencies:
     tslib "^2.1.0"
 
@@ -121,10 +121,10 @@
     "@fluentui/set-version" "^8.2.1"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.77.2":
-  version "8.77.2"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.77.2.tgz#3c8a8be1730f8f222e2e4d586a65fb6664779c51"
-  integrity sha512-Oeruxxu4v+LZ97eDwev1aMpqMEKsAUfh7gU3q5zvzmd8X72ZqL0yU/umcjzg6E4n8hhszKldQuCl0ZBq6nXYqg==
+"@fluentui/react@^8.77.3":
+  version "8.77.3"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.77.3.tgz#d3d197481d61c633fa2677de2c4b1fb8dfd4fdec"
+  integrity sha512-zhc7aANH/NxmQui35pq1BBnVH+5rzr/yUzepWs2RE43EmTK431lJ6DBk4UHXXfrf4axdL62WwUsdlmXpVhWrvQ==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.1"
     "@fluentui/font-icons-mdl2" "^8.4.2"
@@ -132,7 +132,7 @@
     "@fluentui/merge-styles" "^8.5.2"
     "@fluentui/react-focus" "^8.7.2"
     "@fluentui/react-hooks" "^8.6.0"
-    "@fluentui/react-portal-compat-context" "^9.0.0-rc.2"
+    "@fluentui/react-portal-compat-context" "^9.0.0"
     "@fluentui/react-window-provider" "^2.2.1"
     "@fluentui/set-version" "^8.2.1"
     "@fluentui/style-utilities" "^8.7.1"
@@ -1767,12 +1767,7 @@ tslib@^1.8.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
-tslib@^2.1.0:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
-  integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
-
-tslib@^2.4.0:
+tslib@^2.1.0, tslib@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
