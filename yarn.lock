@@ -106,10 +106,10 @@
     "@fluentui/utilities" "^8.9.0"
     tslib "^2.1.0"
 
-"@fluentui/react-portal-compat-context@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.0.tgz#5a4bc780e28ff88ff0dd5e6a67041102b2113555"
-  integrity sha512-EEDKfiJNKWwAKGNHHFq7cUgyYWkzCMGETE4t06aQG6cjDEnBb4fxiApOyb3Gtg/2lmUZt8GA4PXx1yc3qVewfg==
+"@fluentui/react-portal-compat-context@^9.0.1":
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.1.tgz#444b0bd2c525f0559302181b0982ed42eac97f71"
+  integrity sha512-KhOcXy2tvzNoAqFowkaRGFiLuRuPjzn6i1W30iMkhgsSVKxa/9jxso86Z8R0eZwA+16RNO/Ia2nX1gqfUac9mw==
   dependencies:
     tslib "^2.1.0"
 
@@ -121,10 +121,10 @@
     "@fluentui/set-version" "^8.2.1"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.81.0":
-  version "8.81.0"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.81.0.tgz#9551bdcc983743dac9bb5f9114a78e840cf0170d"
-  integrity sha512-KhIVGUl+l1l0lfg8VQZZzu0z7FIzh/sy4vhBs4L5cbTCbsLDAqM0m/TVGSv9X936cwWyT1HVRFUE2xt0HkvKzQ==
+"@fluentui/react@^8.81.1":
+  version "8.81.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.81.1.tgz#68791ff0eca036b99b345d90f5dfd0025d5a9d4c"
+  integrity sha512-iTdfjWMsMwdvc2ZRQBg/nBUhX0mmttjH0pbMZ8RgcMLuSDauQnDwMN3gEWRZ+fInUGcqTE1hzEdoLS75Dl3bAg==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.1"
     "@fluentui/font-icons-mdl2" "^8.4.3"
@@ -132,7 +132,7 @@
     "@fluentui/merge-styles" "^8.5.2"
     "@fluentui/react-focus" "^8.7.3"
     "@fluentui/react-hooks" "^8.6.1"
-    "@fluentui/react-portal-compat-context" "^9.0.0"
+    "@fluentui/react-portal-compat-context" "^9.0.1"
     "@fluentui/react-window-provider" "^2.2.1"
     "@fluentui/set-version" "^8.2.1"
     "@fluentui/style-utilities" "^8.7.2"
