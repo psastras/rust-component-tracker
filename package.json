@@ -11,7 +11,7 @@
   "dependencies": {
     "@fluentui/react": "^8.87.1",
     "moment": "^2.29.4",
-    "next": "12.2.2",
+    "next": "12.2.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
