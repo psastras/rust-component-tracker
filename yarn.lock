@@ -113,12 +113,12 @@
     "@fluentui/utilities" "^8.13.8"
     tslib "^2.1.0"
 
-"@fluentui/react-hooks@^8.6.18":
-  version "8.6.18"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-hooks/-/react-hooks-8.6.18.tgz#caebec7debfefc3b1071406198daea0d74b07f28"
-  integrity sha512-8XtDs3VmdIjwYU9y5xWMxZg0DhZ4CNJx7aPjEdGiLfn6EyUTvJFZO5DcdlCF126Thbb1bqsD94iV8/GdS5ikCw==
+"@fluentui/react-hooks@^8.6.19":
+  version "8.6.19"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-hooks/-/react-hooks-8.6.19.tgz#33a8c4fcf6b76ae156069c924ca2da51b025be36"
+  integrity sha512-qiuz01T6DcB1OFUzliFXMJKnkeB+jmkNBOuhoB4k3MqEpKBxLjf5vrLznQgJ7KRwqyZPQs8uOnykDU/AcndZ7A==
   dependencies:
-    "@fluentui/react-window-provider" "^2.2.7"
+    "@fluentui/react-window-provider" "^2.2.8"
     "@fluentui/set-version" "^8.2.5"
     "@fluentui/utilities" "^8.13.8"
     tslib "^2.1.0"
@@ -130,27 +130,27 @@
   dependencies:
     tslib "^2.1.0"
 
-"@fluentui/react-window-provider@^2.2.7":
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-window-provider/-/react-window-provider-2.2.7.tgz#2f1765a9b9a52750b10c31e09b98d6a25b21287d"
-  integrity sha512-fi5nYs2h4H70yrJ4g+XN4Tp4PCbwvyIErBz0Bdyai8b86VUtYLnGt+MDDrFqLqt17tcooH8u29iGyGGNFy2yYw==
+"@fluentui/react-window-provider@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-window-provider/-/react-window-provider-2.2.8.tgz#302836c70a164e59f32c583ce915546fce736b67"
+  integrity sha512-Z1qgyCmsfYvwoAa+ViCFdVAu5SAdBy1571zAHALHgmcN0AbplAYD1S39xIAEpyX1+r6TeKtyepQUuyfv73kNEg==
   dependencies:
     "@fluentui/set-version" "^8.2.5"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.106.4":
-  version "8.106.4"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.106.4.tgz#ffa70b074f1ee868397605784ff09fb5b271e516"
-  integrity sha512-Lq/FJa8ww8mRI5/1xzl/DvV96DLRm210g1Oe1PL3i5rsTuOIY4ZqcjffNEVLztSemm2u2sRoZUS/wQnUcWi1Xw==
+"@fluentui/react@^8.106.5":
+  version "8.106.5"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.106.5.tgz#921435c7bf3d0268e807a7055663586345fd0975"
+  integrity sha512-nJruoPUIqpIEhdOvMvN6slkAoJPe44F2BB79kab3il1j7OcBSazcaDMBY58laTlXqFgQW1E1bu3RhWeXlgwGAg==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.5"
     "@fluentui/font-icons-mdl2" "^8.5.12"
     "@fluentui/foundation-legacy" "^8.2.32"
     "@fluentui/merge-styles" "^8.5.6"
     "@fluentui/react-focus" "^8.8.18"
-    "@fluentui/react-hooks" "^8.6.18"
+    "@fluentui/react-hooks" "^8.6.19"
     "@fluentui/react-portal-compat-context" "^9.0.4"
-    "@fluentui/react-window-provider" "^2.2.7"
+    "@fluentui/react-window-provider" "^2.2.8"
     "@fluentui/set-version" "^8.2.5"
     "@fluentui/style-utilities" "^8.9.5"
     "@fluentui/theme" "^2.6.24"
