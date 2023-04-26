@@ -49,10 +49,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.39.0.tgz#58b536bcc843f4cd1e02a7e6171da5c040f4d44b"
   integrity sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==
 
-"@fluentui/date-time-utilities@^8.5.6":
-  version "8.5.6"
-  resolved "https://registry.yarnpkg.com/@fluentui/date-time-utilities/-/date-time-utilities-8.5.6.tgz#4fa8924e58419108a699435e595ebd9b40f2c9cb"
-  integrity sha512-BS5EgnB5GFLg4p84GWqCjt6Pbnjnz0RZA94FAfVOYoqHcnjLURZ1BkQuorGdwS7ipaE4AVgNaQsPq90PsAfuXw==
+"@fluentui/date-time-utilities@^8.5.7":
+  version "8.5.7"
+  resolved "https://registry.yarnpkg.com/@fluentui/date-time-utilities/-/date-time-utilities-8.5.7.tgz#c01d63a94c36546214db9b07d1b483536bb24a29"
+  integrity sha512-+g6YWgI0LbsoPo03rCNRsZPP9uXlYVfCY/AdFTfAr3RiilLWIt9L21eRm0/vap/HEc4Jx+MoW8RpBg9U0i5PkA==
   dependencies:
     "@fluentui/set-version" "^8.2.6"
     tslib "^2.1.0"
@@ -138,12 +138,12 @@
     "@fluentui/set-version" "^8.2.6"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.108.1":
-  version "8.108.1"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.108.1.tgz#fd061ce87e9cae193f41daa71ecc616c10a7baa3"
-  integrity sha512-tzHLK9pgyEp1PFHYynOWxk9VfindG5H5LCvrxwd+MKE+GRu2IQqPnXvi3ht5Z1QJQfwjWiPBpj/mjFKkEQC8Hg==
+"@fluentui/react@^8.108.2":
+  version "8.108.2"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.108.2.tgz#f9910d4ec4c0ab829bc67b3626a49b94411bf147"
+  integrity sha512-wVJBFZFVNzaaLByPkz36oMDexS5Poi9LKSbzQdAXJMdm7IQDiz4vvPcz5fFxZaFZeTclWZmZmdUAkg5301TiXQ==
   dependencies:
-    "@fluentui/date-time-utilities" "^8.5.6"
+    "@fluentui/date-time-utilities" "^8.5.7"
     "@fluentui/font-icons-mdl2" "^8.5.13"
     "@fluentui/foundation-legacy" "^8.2.33"
     "@fluentui/merge-styles" "^8.5.7"
