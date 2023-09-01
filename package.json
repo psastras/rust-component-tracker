@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fluentui/react": "^8.111.0",
+    "@fluentui/react": "^8.111.2",
     "moment": "^2.29.4",
     "next": "13.4.19",
     "react": "18.2.0",
