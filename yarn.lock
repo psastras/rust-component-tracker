@@ -120,12 +120,12 @@
     "@fluentui/utilities" "^8.13.18"
     tslib "^2.1.0"
 
-"@fluentui/react-portal-compat-context@^9.0.6":
-  version "9.0.6"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.6.tgz#2b35b9ed6a7305cec747945d334c4976d6b0cd7e"
-  integrity sha512-HUt0/YXKRB4chtzlGbZ+7y7FHFyqaI0CeMFAe/QBXVOiOwA01QOr2j4Uky+30vupspIt6mjodLanuw1jMybmqQ==
+"@fluentui/react-portal-compat-context@^9.0.9":
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.9.tgz#6482d4fa7518dc161b3fbb62e00f240c13acd846"
+  integrity sha512-Qt4zBJjBf3QihWqDNfZ4D9ha0QdcUvw4zIErp6IkT4uFIkV2VSgEjIKXm0h2iDEZZQtzbGlFG+9hPPhH13HaPQ==
   dependencies:
-    "@swc/helpers" "^0.4.14"
+    "@swc/helpers" "^0.5.1"
 
 "@fluentui/react-window-provider@^2.2.15":
   version "2.2.15"
@@ -135,10 +135,10 @@
     "@fluentui/set-version" "^8.2.11"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.111.2":
-  version "8.111.2"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.111.2.tgz#c16634768702ad82971a4eb0d5935ddc12e539d3"
-  integrity sha512-1mWewd6+9rUChaZwva0ZbywZxk4ao2/hPTmDSvMbeaJdzUWgaIGGJ7fJbC0oawuNXchakDuhRkixbjrUyOefLA==
+"@fluentui/react@^8.111.3":
+  version "8.111.3"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.111.3.tgz#0249e317c6dfed4f3cbdf75897d3ae93c89d5ebf"
+  integrity sha512-4exK9NZXGtNaWnvWoSSFI1UjbDzAbnH3TqzJity83qYqyfPVqmQiea54JsWQpvFmTpZeNtgcO/MG5Mv/dWcqpA==
   dependencies:
     "@fluentui/date-time-utilities" "^8.5.13"
     "@fluentui/font-icons-mdl2" "^8.5.24"
@@ -146,7 +146,7 @@
     "@fluentui/merge-styles" "^8.5.12"
     "@fluentui/react-focus" "^8.8.31"
     "@fluentui/react-hooks" "^8.6.29"
-    "@fluentui/react-portal-compat-context" "^9.0.6"
+    "@fluentui/react-portal-compat-context" "^9.0.9"
     "@fluentui/react-window-provider" "^2.2.15"
     "@fluentui/set-version" "^8.2.11"
     "@fluentui/style-utilities" "^8.9.17"
@@ -313,17 +313,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.4.0.tgz#77e948b9760bd22736a5d26e335a690f76fda37b"
   integrity sha512-cEjvTPU32OM9lUFegJagO0mRnIn+rbqrG89vV8/xLnLFX0DoR0r1oy5IlTga71Q7uT3Qus7qm7wgeiMT/+Irlg==
 
-"@swc/helpers@0.5.2":
+"@swc/helpers@0.5.2", "@swc/helpers@^0.5.1":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.5.2.tgz#85ea0c76450b61ad7d10a37050289eded783c27d"
   integrity sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==
-  dependencies:
-    tslib "^2.4.0"
-
-"@swc/helpers@^0.4.14":
-  version "0.4.14"
-  resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.4.14.tgz#1352ac6d95e3617ccb7c1498ff019654f1e12a74"
-  integrity sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==
   dependencies:
     tslib "^2.4.0"
 
