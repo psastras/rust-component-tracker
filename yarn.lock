@@ -82,10 +82,10 @@
     "@eslint/core" "^0.16.0"
     levn "^0.4.1"
 
-"@fluentui/date-time-utilities@^8.6.10":
-  version "8.6.10"
-  resolved "https://registry.yarnpkg.com/@fluentui/date-time-utilities/-/date-time-utilities-8.6.10.tgz#b24384c0f525b4cb798cf2e9d9855182da1e6a91"
-  integrity sha512-Bxq8DIMkFvkpCA1HKtCHdnFwPAnXLz3TkGp9kpi2T6VIv6VtLVSxRn95mbsUydpP9Up/DLglp/z9re5YFBGNbw==
+"@fluentui/date-time-utilities@^8.6.11":
+  version "8.6.11"
+  resolved "https://registry.yarnpkg.com/@fluentui/date-time-utilities/-/date-time-utilities-8.6.11.tgz#dfb6ea5341136adb14bb7a3c0f06bc5ffc7ae57e"
+  integrity sha512-zq49tveFzmzwgaJ73rVvxu9+rqhPBIAJSbevciIQnmvv6dlh2GzZcL14Zevk9QV+q6CWaF6yzvhT11E2TpAv8Q==
   dependencies:
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
@@ -98,25 +98,25 @@
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
 
-"@fluentui/font-icons-mdl2@^8.5.63":
-  version "8.5.63"
-  resolved "https://registry.yarnpkg.com/@fluentui/font-icons-mdl2/-/font-icons-mdl2-8.5.63.tgz#334e05776dc97a13ea78f8931869bbdfdfe19fb9"
-  integrity sha512-aSwI7GiIICvzrzok8xV082U1U8oieyjELUFjyocC12/WoAYUdLJAk3L4nh4o4WaFgpfHmbtBul7GIeJBDQxaHA==
+"@fluentui/font-icons-mdl2@^8.5.67":
+  version "8.5.67"
+  resolved "https://registry.yarnpkg.com/@fluentui/font-icons-mdl2/-/font-icons-mdl2-8.5.67.tgz#1249e1369114a1e98239c4f04a65b528b20ba23b"
+  integrity sha512-WcjbcuQbU+3Zp8cymNpRkhnnMn7WNGk/QssY8TmqWhLEsx5B95SOGothSEwGgFd7KJCV7ImbP5n/ht7nzPB2xw==
   dependencies:
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/style-utilities" "^8.12.4"
-    "@fluentui/utilities" "^8.15.23"
+    "@fluentui/style-utilities" "^8.13.3"
+    "@fluentui/utilities" "^8.17.0"
     tslib "^2.1.0"
 
-"@fluentui/foundation-legacy@^8.4.30":
-  version "8.4.30"
-  resolved "https://registry.yarnpkg.com/@fluentui/foundation-legacy/-/foundation-legacy-8.4.30.tgz#fcf9fd117f7ae045e75063c8d1f1fd1889ac9bf1"
-  integrity sha512-BQv7CqILjI+xKMZOOrs01EnuMeRBecmDRze2ThuxB8vZx+xTmBgDlrRIHnWDFIqfC6dMvNCnBwu6ubgiPk8ybQ==
+"@fluentui/foundation-legacy@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/foundation-legacy/-/foundation-legacy-8.6.0.tgz#b7f838cc4b8273a0bb194c7b1fe21aa0e6e5e680"
+  integrity sha512-QWwujy4G4n/siJEk7gYb6V/w9qDrMN3PfYbiVVyt/mjNMctDTBzIdQyl/Ft+wx1L7Mz1QYGigQOkrqYV6CtZMQ==
   dependencies:
     "@fluentui/merge-styles" "^8.6.14"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/style-utilities" "^8.12.4"
-    "@fluentui/utilities" "^8.15.23"
+    "@fluentui/style-utilities" "^8.13.3"
+    "@fluentui/utilities" "^8.17.0"
     tslib "^2.1.0"
 
 "@fluentui/keyboard-key@^0.4.23":
@@ -134,60 +134,60 @@
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
 
-"@fluentui/react-focus@^8.9.26":
-  version "8.9.26"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-focus/-/react-focus-8.9.26.tgz#26bb1ea7692cd9b73d33b9b9c63cd8c4beb426b3"
-  integrity sha512-mbFsdCSSgpxTxw3dCIek7hmTubxJZT4+7uFRZOo0abKKCn6rWGcQWpiLT9ndJrD6I5TtEzJaw68WEk7kvFYyAw==
+"@fluentui/react-focus@^8.10.0":
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-focus/-/react-focus-8.10.0.tgz#1b78be07143380263449ae2ddf212cb557e1b663"
+  integrity sha512-4FBtxu4y92OAI54NVErw8dYY/AMjlDYlsN9N9AhIElLUymAwA5igJy9m8g3BfKfdzVnp3VAiSpgfkO/xfSkY2w==
   dependencies:
     "@fluentui/keyboard-key" "^0.4.23"
     "@fluentui/merge-styles" "^8.6.14"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/style-utilities" "^8.12.4"
-    "@fluentui/utilities" "^8.15.23"
+    "@fluentui/style-utilities" "^8.13.3"
+    "@fluentui/utilities" "^8.17.0"
     tslib "^2.1.0"
 
-"@fluentui/react-hooks@^8.8.19":
-  version "8.8.19"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-hooks/-/react-hooks-8.8.19.tgz#62572757d00d6ab9b0b249308ef45bdcd54fd360"
-  integrity sha512-uXcETVTl2L0G/Ocyb2Rjym96tcJd2NaZ2Hqt6EJcBb9KJD9irNeXjCCxsRNPC5kBDbfrQML2aai+M2kU9lZKNQ==
+"@fluentui/react-hooks@^8.10.0":
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-hooks/-/react-hooks-8.10.0.tgz#b8fb97e732696867b3400eb293b4f81c828d716e"
+  integrity sha512-0yptFrnroTdwA8l3Cbb14nj08GIiocNsj5Au9mvbdUFabKx53bYtzUjPZM1Bo0jnIPQUDJ2q8chvQVhXYj9lCA==
   dependencies:
-    "@fluentui/react-window-provider" "^2.2.30"
+    "@fluentui/react-window-provider" "^2.3.0"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/utilities" "^8.15.22"
+    "@fluentui/utilities" "^8.17.0"
     tslib "^2.1.0"
 
-"@fluentui/react-portal-compat-context@^9.0.14":
-  version "9.0.14"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.14.tgz#b8a3105001562cd7977da267c77600f2b3331df8"
-  integrity sha512-OyAaHIbkwqlIgStd8qnS2gcZMmrNokesCUnmELzaygTHJ8Q4L9BPlah98b0wRFf5Sdeu1EPT6nDgn3VuLGqSnQ==
+"@fluentui/react-portal-compat-context@^9.0.15":
+  version "9.0.15"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-portal-compat-context/-/react-portal-compat-context-9.0.15.tgz#84f7fb28ff801d1ae4b9026a7d2c85618f4ed9a5"
+  integrity sha512-DpV+qtFvM3dmH1j8ZD+YcM5vaTvmQPHUAx6tQnnmIoYJWs2R0wU/L5p2EajXy7zSg74jrDbDRxzaziamoOaJdg==
   dependencies:
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-window-provider@^2.2.30":
-  version "2.2.30"
-  resolved "https://registry.yarnpkg.com/@fluentui/react-window-provider/-/react-window-provider-2.2.30.tgz#4e2c3a524a908cf6241318b54f428fbc2248a5ab"
-  integrity sha512-2SXuiZcU29W0D9zfExcTfzVx97OI50YCn5fGGO0bTDuP5VxzTQp1mipAY4qm/yJMMinoXkzBGLl1rK0Tdtxh1w==
+"@fluentui/react-window-provider@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-window-provider/-/react-window-provider-2.3.0.tgz#80984cc59bdc13215966e10da7c95e53e025248f"
+  integrity sha512-+0pBuW0KQ6rptvxy0U0FUAkLct3DCbHvxPe02FmqdPww1IkPNM/m56id807mCBo0CMnAk9oHIEfe8gqptFkWRg==
   dependencies:
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
 
-"@fluentui/react@^8.123.6":
-  version "8.123.6"
-  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.123.6.tgz#22b7f4c3466f6e97d598eb3831e63ba2dd1bb61e"
-  integrity sha512-z/y2Zqz3oeqb9VtWAtkvwt1yJ0TCJgqgU8hTGEUl6SuwXZqb0jTJamXXfB7T1DlSOkf2mTXaMU4alXX/odaONQ==
+"@fluentui/react@^8.125.0":
+  version "8.125.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.125.0.tgz#02ef8e953389f142ed634b585248e4e32f0004fe"
+  integrity sha512-QEQikij94y2miCM6h/+4S5Jf9OOGMiGfV8nrNG0QECumP4Is8oDylxvvoFXV/zLrtJa5IwWs/gsh6zusyqnWNg==
   dependencies:
-    "@fluentui/date-time-utilities" "^8.6.10"
-    "@fluentui/font-icons-mdl2" "^8.5.63"
-    "@fluentui/foundation-legacy" "^8.4.30"
+    "@fluentui/date-time-utilities" "^8.6.11"
+    "@fluentui/font-icons-mdl2" "^8.5.67"
+    "@fluentui/foundation-legacy" "^8.6.0"
     "@fluentui/merge-styles" "^8.6.14"
-    "@fluentui/react-focus" "^8.9.26"
-    "@fluentui/react-hooks" "^8.8.19"
-    "@fluentui/react-portal-compat-context" "^9.0.14"
-    "@fluentui/react-window-provider" "^2.2.30"
+    "@fluentui/react-focus" "^8.10.0"
+    "@fluentui/react-hooks" "^8.10.0"
+    "@fluentui/react-portal-compat-context" "^9.0.15"
+    "@fluentui/react-window-provider" "^2.3.0"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/style-utilities" "^8.12.4"
-    "@fluentui/theme" "^2.6.67"
-    "@fluentui/utilities" "^8.15.23"
+    "@fluentui/style-utilities" "^8.13.3"
+    "@fluentui/theme" "^2.7.0"
+    "@fluentui/utilities" "^8.17.0"
     "@microsoft/load-themed-styles" "^1.10.26"
     tslib "^2.1.0"
 
@@ -198,36 +198,36 @@
   dependencies:
     tslib "^2.1.0"
 
-"@fluentui/style-utilities@^8.12.4":
-  version "8.12.4"
-  resolved "https://registry.yarnpkg.com/@fluentui/style-utilities/-/style-utilities-8.12.4.tgz#94ec45d1f25aa5e14864ef284b87cae0003927cf"
-  integrity sha512-s+u9v5gQ1SMLsuI7pUP2rXo6Kd2v+X2l4eKQxKO4UO0dZv/kLaA4fnmkXaIDpKkLS+eI9KBAG/W2KhojwBSt1g==
+"@fluentui/style-utilities@^8.13.3":
+  version "8.13.3"
+  resolved "https://registry.yarnpkg.com/@fluentui/style-utilities/-/style-utilities-8.13.3.tgz#6227ebef3003082bac153a7f4856c89b9c4820be"
+  integrity sha512-7MWYLCJk2Z4FTTxxH5f8plNhNdYegwIVkOE/lNAOn/h+pBxNzm9AioiTGqiMn2qQV/HNktPA5EPPyPjMceVYAg==
   dependencies:
     "@fluentui/merge-styles" "^8.6.14"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/theme" "^2.6.67"
-    "@fluentui/utilities" "^8.15.23"
+    "@fluentui/theme" "^2.7.0"
+    "@fluentui/utilities" "^8.17.0"
     "@microsoft/load-themed-styles" "^1.10.26"
     tslib "^2.1.0"
 
-"@fluentui/theme@^2.6.67":
-  version "2.6.67"
-  resolved "https://registry.yarnpkg.com/@fluentui/theme/-/theme-2.6.67.tgz#0efd0a6516e6f858072859fe811d592f8904093e"
-  integrity sha512-+9+VkIkZ+NCQDXFP6+WV2ChAj/KHphOEDCvGO15w8ql7sqRxeRQACtoWYNq1tAAsodbnq/amCfo2PNy2VIcIOQ==
+"@fluentui/theme@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/theme/-/theme-2.7.0.tgz#a475077452d86d608fed063229e05c288ba4b24f"
+  integrity sha512-r+WWK/Nsq0oJT+xTvLuLy+jI//6alZGn02eLV65UxjPBTkvoTPihKned/5U7EEdoxW63Eje6JM8Tgb/+hCExSQ==
   dependencies:
     "@fluentui/merge-styles" "^8.6.14"
     "@fluentui/set-version" "^8.2.24"
-    "@fluentui/utilities" "^8.15.22"
+    "@fluentui/utilities" "^8.17.0"
     tslib "^2.1.0"
 
-"@fluentui/utilities@^8.15.22", "@fluentui/utilities@^8.15.23":
-  version "8.15.23"
-  resolved "https://registry.yarnpkg.com/@fluentui/utilities/-/utilities-8.15.23.tgz#38f1832d6e75bd92434b3619f516efde31e9f222"
-  integrity sha512-Vrto/daJ8lhwAZqf5XkC3qi+4PW8Dk2X0yXNgia9aV2wxsbMoEikqC08cNQnapTaBLkurAIShTbR56mxKh8Kyw==
+"@fluentui/utilities@^8.17.0":
+  version "8.17.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/utilities/-/utilities-8.17.0.tgz#a5042f53c6a4ac574ab62e7edf9e747cf4c0b50a"
+  integrity sha512-JBAZt/jP6wBGz7dIRPunwgxmN3MDjw02tS5f/7BVGsBP4I++Q93a0zkiSRdRSMZ3TnB4hJuygvEDR1zOmIP34A==
   dependencies:
     "@fluentui/dom-utilities" "^2.3.10"
     "@fluentui/merge-styles" "^8.6.14"
-    "@fluentui/react-window-provider" "^2.2.30"
+    "@fluentui/react-window-provider" "^2.3.0"
     "@fluentui/set-version" "^8.2.24"
     tslib "^2.1.0"
 
